@@ -1,4 +1,4 @@
-This contains some general setup to make the program work nicely.
+# This contains some general setup to make the program work nicely.
 
 You need to create a environment named spectrometer_env inside the directory that contains all the python files
 
