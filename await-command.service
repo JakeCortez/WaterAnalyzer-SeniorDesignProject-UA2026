@@ -1,0 +1,11 @@
+[Unit]
+Description=Host to receive commands from phone app
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pocket-pro/Desktop/instant-raman/spectrometer_env/bin/python3 /home/pocket-pro/Desktop/instant-raman/controller.py
+User=pocket-pro
+
+[Install]
+WantedBy=multi-user.target
